@@ -84,14 +84,6 @@ The project explores multiple neural network architectures:
 
 **Goutam16-Withcode**
 
-## License
-
-This project is open source and available under the MIT License.
-
-## Contributing
-
-Contributions are welcome! Feel free to fork this repository and submit pull requests.
-
 ## Contact
 
 Email: goutamshaarma001212@gmail.com
