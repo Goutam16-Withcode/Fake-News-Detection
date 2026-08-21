@@ -1,6 +1,10 @@
 # 🛡️ VeriFact AI - Fake News & Credibility Detection Platform
 
-A comprehensive Machine Learning and Natural Language Processing (NLP) system built to detect fake news, clickbait propaganda, and unverified rumors in real time. The platform features an interactive, modern **Streamlit Web Application** alongside a complete **Jupyter Notebook pipeline** (`FAKE__NEWS_Detection.ipynb`).
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://goutam16-withcode-fake-news-detection-app-2lrpq7.streamlit.app/)
+
+A comprehensive Machine Learning and Natural Language Processing (NLP) system built to detect fake news, clickbait propaganda, and unverified rumors in real time. The platform features a live, ultra-modern **Streamlit Web Application** alongside a complete **Jupyter Notebook pipeline** (`FAKE__NEWS_Detection.ipynb`).
+
+🌐 **Live Deployed Web Application**: **[https://goutam16-withcode-fake-news-detection-app-2lrpq7.streamlit.app/](https://goutam16-withcode-fake-news-detection-app-2lrpq7.streamlit.app/)**
 
 ---
 
@@ -49,8 +53,7 @@ A comprehensive Machine Learning and Natural Language Processing (NLP) system bu
 e:\Fake-News-Detection\
 │
 ├── FAKE__NEWS_Detection.ipynb   # Jupyter Notebook (EDA, Tokenization, BiLSTM & ML Model Training)
-├── app.py                      # Production Streamlit Web Application (In-Memory ML Engine & Light UI)
-├── train_model.py              # ML Model Training & Export Script
+├── app.py                      # Production Streamlit Web Application (In-Memory & PKL Engine)
 ├── requirements.txt            # Python Dependencies
 ├── README.md                   # Project Documentation
 └── .streamlit/
@@ -59,29 +62,35 @@ e:\Fake-News-Detection\
 
 ---
 
-## 🚀 Quick Start Guide
+## 🚀 Quick Start & Deployment Guide
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/Goutam16-Withcode/Fake-News-Detection.git
-cd Fake-News-Detection
-```
+### 🌐 Access Live Online Application
+No installation required! Visit the live web app directly:  
+👉 **[https://goutam16-withcode-fake-news-detection-app-2lrpq7.streamlit.app/](https://goutam16-withcode-fake-news-detection-app-2lrpq7.streamlit.app/)**
 
-### 2. Install Dependencies
-```bash
-pip install -r requirements.txt
-```
+### 💻 Local Run Instructions
 
-### 3. Launch the Streamlit Web Application
-```bash
-python -m streamlit run app.py
-```
-Open your browser and navigate to **[http://localhost:8501](http://localhost:8501)**.
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/Goutam16-Withcode/Fake-News-Detection.git
+   cd Fake-News-Detection
+   ```
 
-### 4. Run the Jupyter Notebook
-```bash
-jupyter notebook FAKE__NEWS_Detection.ipynb
-```
+2. **Install Dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Launch the Streamlit Web Application**:
+   ```bash
+   python -m streamlit run app.py
+   ```
+   Open **[http://localhost:8501](http://localhost:8501)** in your browser.
+
+4. **Run the Jupyter Notebook**:
+   ```bash
+   jupyter notebook FAKE__NEWS_Detection.ipynb
+   ```
 
 ---
 
