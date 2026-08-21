@@ -7,5 +7,4 @@ seaborn
 wordcloud
 nltk
 scikit-learn
-gensim
 kagglehub
