@@ -98,7 +98,7 @@ The project is trained on the Kaggle Fake News Detection Dataset containing **44
 
 **Goutam16-Withcode**
 - **GitHub**: [Goutam16-Withcode](https://github.com/Goutam16-Withcode)
-- **Email**: goutamshaarma001212@gmail.com
+- **Email**: goutam.sharrma@gmail.com
 
 ---
 *Built with ❤️ for Machine Learning and NLP Research.*
